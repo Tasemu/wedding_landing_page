@@ -10,7 +10,7 @@ const mapFrame = document.getElementById("directions-map");
 const mapButtons = document.querySelectorAll(".directions__item");
 const gallerySwiperEl = document.querySelector(".gallery__swiper");
 
-const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyL00BLfPVUYcxFPj2QFAKa9QVBW1Zloor8S2omQm8M8qzYg4wbmAjUR_13Zp_L52np/exec";
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzP9VfkaxmIB9Z2Ns8LcqpPlX7qWg_dB4GhmWGv9-sGfKxOe4Pv2JwMjivVS9ggCYcv/exec";
 const WEDDING_DATE = new Date("2026-08-01T20:30:00Z"); // adjust to local time as needed
 
 function closeMobileMenu() {
