@@ -54,6 +54,7 @@ async function submitForm(event) {
   if (!form) return;
 
   const formData = new FormData(form);
+  const payload = new URLSearchParams(formData);
   const submitButton = form.querySelector(".rsvp-form__submit");
 
   setStatus("Sending your RSVP...", "");
@@ -64,10 +65,7 @@ async function submitForm(event) {
     const response = await fetch(GOOGLE_APPS_SCRIPT_URL, {
       method: "POST",
       mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(Object.fromEntries(formData)),
+      body: payload,
     });
 
     if (!response.ok) {
