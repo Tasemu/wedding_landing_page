@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monty &amp; Sanah | Wedding Celebration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav">
+      <a href="#home" class="nav__logo">M &amp; S</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+      <ul class="nav__links" id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#directions">Directions</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+      </ul>
+    </nav>
+    <div class="hero__body">
+      <p class="hero__subtitle">August 1, 2026 &mdash; Hopgrass Farm, Hungerford RG17 0SJ</p>
+      <h1 class="hero__title">Wedding of Monty &amp; Sanah</h1>
+      <p class="hero__description">After a small private ceremony earlier in the day, we’d love for you to join us at Hopgrass Farm for the reception and evening celebrations. Guests are invited to arrive from 3:30 PM, when we’ll gather together to celebrate with food, music, and dancing late into the night.</p>
+      <a class="hero__cta" href="#rsvp">RSVP</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--countdown">
+      <div class="section__inner">
+        <h2 class="section__heading script">Counting down to “I do”</h2>
+        <div class="countdown" id="countdown">
+          <div class="countdown__segment">
+            <span class="countdown__value" data-unit="days">183</span>
+            <span class="countdown__label">days</span>
+          </div>
+          <div class="countdown__segment">
+            <span class="countdown__value" data-unit="hours">23</span>
+            <span class="countdown__label">hours</span>
+          </div>
+          <div class="countdown__segment">
+            <span class="countdown__value" data-unit="minutes">59</span>
+            <span class="countdown__label">minutes</span>
+          </div>
+          <div class="countdown__segment">
+            <span class="countdown__value" data-unit="seconds">59</span>
+            <span class="countdown__label">seconds</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--story">
+      <div class="section__inner">
+        <div class="details">
+          <div class="details__column">
+            <h2 class="section__heading">All the lovely details</h2>
+            <p>Join us at Hopgrass Farm for a day filled with love, laughter, and celebration among our closest friends and family. Hopgerass farm is the loving family home of the Monro's, full of memories, and we cannot wait to share this day together with all of you there.</p>
+            <p>Guests are welcome to arrive from 3:30 PM, giving plenty of time to settle in and enjoy the surroundings before the celebrations begin. We&apos;ll start the afternoon with a ring warming ceremony, where each of our guests will have the chance to hold our wedding rings and offer a silent wish or blessing before we exchange them. It&apos;s a simple but meaningful way to include everyone we love in the heart of our ceremony.</p>
+            <p>Afterwards, the music will start, and the rest of the day will flow naturally — good food, good company, and plenty of time to dance, talk, and enjoy the evening together. Expect a laid-back atmosphere with great tunes, our favorite local food, friends family and dancing.</p>
+            <p>Catering will be provided by our favourite local wood-fired pizza team, serving up fresh slices throughout the evening. Beer and bubbles will be available, but we kindly ask guests to bring along any extra drinks you&apos;d like to enjoy so there&apos;s enough to keep everyone going late into the night.</p>
+            <p>For those driving, there&apos;s a field beside the barn reserved for parking. If you&apos;re travelling by train, Hungerford Station is just a 15-minute walk away across the Hungerford Marsh. Camping is warmly welcomed, and there&apos;s plenty of space to pitch a tent if you&apos;d like to stay overnight and soak up the whole weekend vibe.</p>
+            <p>The dress code is smart, but we encourage everyone to keep comfort in mind &mdash; especially with the countryside setting and plenty of dancing ahead.</p>
+            <p>We can’t wait to share this day with you — save the date and see you then!</p>
+          </div>
+          <figure class="details__image">
+            <img src="assets/image1.jpg" alt="Hopgrass Farm barn at dusk with festoon lights and rustic beams" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--schedule" id="schedule">
+      <div class="section__inner">
+        <h2 class="section__heading">Weekend itinerary</h2>
+        <div class="schedule">
+          <div class="schedule__tabs" role="tablist">
+            <button class="schedule__tab schedule__tab--active" role="tab" aria-selected="true" data-day="saturday">Saturday, August 1</button>
+          </div>
+          <div class="schedule__content schedule__content--active" id="schedule-saturday">
+            <div class="schedule__item">
+              <time>3:30 PM</time>
+              <div>
+                <p class="schedule__title">Arrival</p>
+                <p>Roll up to Hopgrass Farm, settle in on the lawn, and grab a welcome lemonade or spritz.</p>
+              </div>
+            </div>
+            <div class="schedule__item">
+              <time>4:00 PM</time>
+              <div>
+                <p class="schedule__title">Drinks on the meadow</p>
+                <p>Signature cocktails, local ales, and lawn games as the band eases into the evening.</p>
+              </div>
+            </div>
+            <div class="schedule__item">
+              <time>5:00 PM</time>
+              <div>
+                <p class="schedule__title">Ring warming</p>
+                <p>Gather around for a communal blessing and warm our rings with your wishes before the sun dips.</p>
+              </div>
+            </div>
+            <div class="schedule__item">
+              <time>6:30 PM</time>
+              <div>
+                <p class="schedule__title">Food catering</p>
+                <p>Farm-inspired spread from the wood-fired kitchen, served buffet-style with sweet treats to follow.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gallery" id="gallery">
+      <div class="section__inner">
+        <h2 class="section__heading">Pictures for the day</h2>
+        <p class="section__intro section__intro--narrow">We want to have a projector up showing as many memories as possible on the day so if you have a picture you want to see then please submit it <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSfRDOGJeC_wuqIHIL_50gbf2tNKAQNhDw6PLOOHzd57ul563A/viewform?usp=header">here!</a></b></p>
+        <div class="gallery">
+          <div class="swiper gallery__swiper">
+            <div class="swiper-wrapper">
+              <!-- gallery:start -->
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.45.jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:45">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.48.jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:48">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.50 (1).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:50 1">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.50 (2).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:50 2">
+              </div>
+              
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.50.jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:50">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (1).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 1">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (10).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 10">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (11).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 11">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (12).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 12">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (2).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 2">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (3).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 3">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (4).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 4">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (5).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 5">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (6).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 6">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (7).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 7">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (8).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 8">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51 (9).jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51 9">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.51.jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:51">
+              </div>
+              <div class="swiper-slide gallery__slide">
+                <img src="assets/gallery/WhatsApp Image 2025-10-21 at 12.32.52.jpeg" alt="WhatsApp Image 2025 10 21 at 12:32:52">
+              </div>
+              <!-- gallery:end -->
+            </div>
+            <div class="gallery__controls">
+              <button class="swiper-button-prev gallery__button gallery__button--prev" type="button" aria-label="Previous slide"></button>
+              <div class="swiper-pagination gallery__pagination"></div>
+              <button class="swiper-button-next gallery__button gallery__button--next" type="button" aria-label="Next slide"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--directions" id="directions">
+      <div class="section__inner">
+        <h2 class="section__heading">Directions &amp; points of interest</h2>
+        <div class="directions">
+          <div class="directions__map">
+            <iframe id="directions-map" title="Map to Hopgrass Farm Cottage" loading="lazy" src="https://www.google.com/maps?q=Hopgrass+Farm+Cottage+RG17+0SJ&output=embed" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="directions__list">
+            <button class="directions__item directions__item--active" type="button" data-map-src="https://www.google.com/maps?q=Hopgrass+Farm+Cottage+RG17+0SJ&output=embed" data-map-title="Map to Hopgrass Farm Cottage">
+              <span class="directions__place">Hopgrass Farm Cottage</span>
+              <span class="directions__note">Reception &amp; evening party venue</span>
+            </button>
+            <button class="directions__item" type="button" data-map-src="https://www.google.com/maps?q=The+Bear+Inn+Hungerford&output=embed" data-map-title="Map to The Bear Inn Hungerford">
+              <span class="directions__place">The Bear Inn, Hungerford</span>
+              <span class="directions__note">Cozy rooms steps from the high street</span>
+            </button>
+            <button class="directions__item" type="button" data-map-src="https://www.google.com/maps?q=The+Swan+Inn+Hungerford&output=embed" data-map-title="Map to The Swan Inn">
+              <span class="directions__place">The Swan Inn</span>
+              <span class="directions__note">Riverside stay ideal for a late night return</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section section--rsvp" id="rsvp">
+      <div class="section__inner">
+        <h2 class="section__heading">RSVP</h2>
+        <p class="rsvp__intro">We would be honored to celebrate together. Kindly respond by June 15, 2026.</p>
+        <form class="rsvp-form" id="rsvp-form">
+          <div class="form-grid">
+            <label class="form-field" for="name">
+              <span>Name(s)</span>
+              <input type="text" id="name" name="name" required placeholder="Alex &amp; Jamie">
+            </label>
+            <label class="form-field" for="email">
+              <span>Email</span>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </label>
+            <label class="form-field" for="attending">
+              <span>Will you attend?</span>
+              <select id="attending" name="attending" required>
+                <option value="">Select an option</option>
+                <option value="Yes! We wouldn't miss it.">Yes! We wouldn&apos;t miss it.</option>
+                <option value="Regretfully no">Regretfully no</option>
+              </select>
+            </label>
+            <label class="form-field" for="guests">
+              <span>Number of guests</span>
+              <input type="number" id="guests" name="guests" min="1" max="6" placeholder="2">
+            </label>
+            <label class="form-field form-field--wide" for="notes">
+              <span>Dietary needs, song requests, or notes</span>
+              <textarea id="notes" name="notes" rows="4" placeholder="Let us know how we can celebrate you."></textarea>
+            </label>
+          </div>
+          <button type="submit" class="rsvp-form__submit">Submit RSVP</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__script script">With love, Monty &amp; Sanah</p>
+      <p>We’ll keep everyone updated — any extra details or plans will be emailed out and posted here closer to the big day.</p>
+      <p>Need assistance? Email <a href="mailto:montymonro1@gmail.com">montymonro1@gmail.com</a></p>
+      <a class="back-to-top" href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
